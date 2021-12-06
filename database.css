@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+/*book appointment */
+.button1 {
+	top: 30%;
+	left: 23%;
+	
+	position: absolute;
+  background-color: dodgerblue; /* blue */
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*Doctor Login */
+.button2 {
+	top: 30%;
+	right: 22%;
+	position: absolute;
+  background-color: dodgerblue; /* Green */
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*book appointment */
+.button3 {
+	top: 50%;
+	left: 22%;
+	
+	position: absolute;
+  background-color: dodgerblue; /* blue */
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*Doctor Login */
+.button4 {
+	top: 50%;
+	right: 27%;
+	position: absolute;
+  background-color: dodgerblue; /* Green */
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

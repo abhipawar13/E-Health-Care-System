@@ -1,0 +1,251 @@
+@charset "ISO-8859-1";
+/* set navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: DodgerBlue;
+}
+
+li {
+	font-size:18px;
+  float:left;
+
+}
+h1{
+	right: 30%;
+}
+
+li a {
+
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.medex {
+	font-size: 21px;
+	text-align: left;
+	padding-right: 77px;
+	padding-left: 77px;
+	color: #009900;
+	animation: glow is ease-in-out infinte alternate;
+}
+
+/* set image */
+.bg-img {
+  /* The image used */
+  background-image: url("medexhome.jpg");
+
+  /* Control the height of the image */
+  min-height: 680px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+
+.btn:hover {
+  opacity: 1;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*book appointment */
+.button {
+	top: 60%;
+	left: 22%;
+	
+	position: absolute;
+  background-color: dodgerblue; /* blue */
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*Doctor Login */
+.button1 {
+	top: 60%;
+	right: 22%;
+	position: absolute;
+  background-color: green; /* Green */
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button {border-radius: 20px;}
+
+.site-footer
+{
+  background-color:Dodgerblue;
+  padding:4px 0 20px;
+  font-size:14px;
+  line-height:2px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:white;
+  opacity:0.5
+}
+
+.site-footer a
+{
+  color:black;
+}
+.site-footer a:hover
+{
+  color:black;
+  text-decoration:none;
+}
+
+
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:20px;
+  color:black;
+  text-align: center;
+}
+
+
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb5
+}
+.social-icons a.twitter:hover
+{
+  background-color:#55ACEE;
+}.social-icons a.github:hover
+{
+  background-color:#00aced
+}
+.social-icons a.instagram:hover
+{
+  background-color:#8a3ab9
+}
